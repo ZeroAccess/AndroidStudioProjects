@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">LogExamples</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="hello_world_land">Hello world Sideways!!</string>
-    <string name="action_settings">Settings</string>
-</resources>

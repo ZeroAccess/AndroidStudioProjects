@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">Button Click Count</string>
-    <string name="default_textView">Please Click the Button</string>
-    <string name="action_settings">Settings</string>
-    <string name="button">Click</string>
-
-</resources>
