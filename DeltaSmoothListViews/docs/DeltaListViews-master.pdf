@@ -1,0 +1,1425 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 9172
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(ListViewActivity.java)-21797.2(spawrks 09/18/14)-29598.4(1-1/2\(1\))]TJ
+/TT4 1 Tf
+2.5 -1.6333 TD
+(1:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(package)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( com.delta.listviews;)Tj
+-6 -1.1 TD
+(2:)Tj
+T*
+(3:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.app.Activity;)Tj
+-5.4 -1.1 TD
+(4:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.app.ActionBar;)Tj
+-5.4 -1.1 TD
+(5:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.app.Fragment;)Tj
+-5.4 -1.1 TD
+(6:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.os.Bundle;)Tj
+-5.4 -1.1 TD
+(7:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.LayoutInflater;)Tj
+-5.4 -1.1 TD
+(8:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.Menu;)Tj
+-5.4 -1.1 TD
+(9:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.MenuItem;)Tj
+-6 -1.1 TD
+(10:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.View;)Tj
+-6 -1.1 TD
+(11:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.ViewGroup;)Tj
+-6 -1.1 TD
+(12:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.os.Build;)Tj
+-6 -1.1 TD
+(13:)Tj
+T*
+(14:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(class)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+( ListViewActivity )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+10.8 0 TD
+(extends)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( Activity {)Tj
+-24.6 -1.1 TD
+[(15:)-599.7(    )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+4.8 0 TD
+(//initial data)Tj
+/TT4 1 Tf
+-4.8 -1.1 TD
+(16:)Tj
+0 g
+2.4 0 TD
+(    Place[] myPlacesArray = )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+16.8 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place[]{)Tj
+-21 -1.1 TD
+[(17:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Art House")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(, 78701 , )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+6 0 TD
+("art")Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+( ,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("This place is tasteful")Tj
+/TT4 1 Tf
+0 g
+14.4 0 TD
+(\),)Tj
+-46.8 -1.1 TD
+[(18:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Bike Shop")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("bike")Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+(,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+0.6 0 TD
+("Cool bikes")Tj
+/TT4 1 Tf
+0 g
+7.2 0 TD
+(\),)Tj
+-39 -1.1 TD
+[(19:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Camera Fix")Tj
+/TT4 1 Tf
+0 g
+7.2 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("polaroids")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+0.6 0 TD
+("These guys always rip me off")Tj
+/TT4 1 Tf
+0 g
+18 0 TD
+(\),)Tj
+-53.4 -1.1 TD
+[(20:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("YETspace")Tj
+/TT4 1 Tf
+0 g
+6 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("radio")Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+(, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("I LOVE this place")Tj
+/TT4 1 Tf
+0 g
+11.4 0 TD
+(\),)Tj
+-43.8 -1.1 TD
+[(21:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Secret Space Pad")Tj
+/TT4 1 Tf
+0 g
+10.8 0 TD
+(, 94103, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("rocket")Tj
+/TT4 1 Tf
+0 g
+4.8 0 TD
+(,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+0.6 0 TD
+("Not very secret, are they?")Tj
+/TT4 1 Tf
+0 g
+16.8 0 TD
+(\),)Tj
+-54 -1.1 TD
+[(22:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Taylorís Tailor")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(, 60610, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("scissors")Tj
+/TT4 1 Tf
+0 g
+6 0 TD
+( , )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.8 0 TD
+("Looking good..")Tj
+/TT4 1 Tf
+0 g
+9.6 0 TD
+(\),)Tj
+-48.6 -1.1 TD
+[(23:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Boathouse")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(, 78701, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("shipwheel")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+( ,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("That place is full of pirates!")Tj
+/TT4 1 Tf
+0 g
+19.2 0 TD
+(\),)Tj
+-54.6 -1.1 TD
+[(24:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Not Apple Store")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("tablet")Tj
+/TT4 1 Tf
+0 g
+4.8 0 TD
+(, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("Android rules!")Tj
+/TT4 1 Tf
+0 g
+9.6 0 TD
+(\),)Tj
+-46.8 -1.1 TD
+[(25:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Tool Battleground")Tj
+/TT4 1 Tf
+0 g
+11.4 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("tools")Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+(, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("That place is dangerous")Tj
+/TT4 1 Tf
+0 g
+15 0 TD
+(\),)Tj
+-52.8 -1.1 TD
+[(26:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Travelpediocity")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("travelerbag")Tj
+/TT4 1 Tf
+0 g
+7.8 0 TD
+( ,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("This is where i booked my summer trip")Tj
+/TT4 1 Tf
+0 g
+23.4 0 TD
+(\),)Tj
+-63.6 -1.1 TD
+[(27:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("UFO Pick-a-part")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(, 90210, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("ufo")Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+0.6 0 TD
+("Out of this world stuff here.")Tj
+/TT4 1 Tf
+0 g
+18.6 0 TD
+(\),)Tj
+-53.4 -1.1 TD
+[(28:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Spawrkís House")Tj
+/TT4 1 Tf
+0 g
+9.6 0 TD
+(, 99999, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("volume")Tj
+/TT4 1 Tf
+0 g
+4.8 0 TD
+(, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("The music is always so good")Tj
+/TT4 1 Tf
+0 g
+17.4 0 TD
+(\),)Tj
+-54 -1.1 TD
+[(29:)-599.7(    };)]TJ
+T*
+(30:)Tj
+T*
+[(31:)-599.7(    String[] myStringArray = )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+19.8 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( String[]{)Tj
+-21.6 -1.1 TD
+[(32:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Art House")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(,)Tj
+-16.2 -1.1 TD
+[(33:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Bike Shop")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(,)Tj
+-16.2 -1.1 TD
+[(34:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Camera Fix")Tj
+/TT4 1 Tf
+0 g
+7.2 0 TD
+(,)Tj
+-16.8 -1.1 TD
+[(35:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("YETspace")Tj
+/TT4 1 Tf
+0 g
+6 0 TD
+(,)Tj
+-15.6 -1.1 TD
+[(36:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Secret Space Pad")Tj
+/TT4 1 Tf
+0 g
+10.8 0 TD
+(,)Tj
+-20.4 -1.1 TD
+[(37:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Taylorís Tailor")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(,)Tj
+-19.8 -1.1 TD
+[(38:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Boathouse")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(,)Tj
+-16.2 -1.1 TD
+[(39:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Not Apple Store")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(,)Tj
+-19.8 -1.1 TD
+[(40:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Tool Battleground")Tj
+/TT4 1 Tf
+0 g
+11.4 0 TD
+(,)Tj
+-21 -1.1 TD
+[(41:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Travelpediocity")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(,)Tj
+-19.8 -1.1 TD
+[(42:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("UFO Pick-a-part")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(,)Tj
+-19.8 -1.1 TD
+[(43:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Spawrkís House")Tj
+/TT4 1 Tf
+0 g
+9.6 0 TD
+(,)Tj
+-19.2 -1.1 TD
+[(44:)-599.7(    };)]TJ
+T*
+(45:)Tj
+T*
+[(46:)-599.7(    @Override)]TJ
+T*
+[(47:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(protected)Tj
+/TT4 1 Tf
+0 g
+5.4 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(void)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+( onCreate\(Bundle savedInstanceState\) {)Tj
+-13.2 -1.1 TD
+[(48:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(super)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(.onCreate\(savedInstanceState\);)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Length 2654
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(ListViewActivity.java)-21797.2(spawrks 09/18/14)-29598.4(1-2/2\(2\))]TJ
+/TT4 1 Tf
+1.9 -1.6333 TD
+[(49:)-599.7(        setContentView\(R.layout.activity_list_view\);)]TJ
+0 -1.1 TD
+(50:)Tj
+T*
+[(51:)-599.7(    })]TJ
+T*
+(52:)Tj
+T*
+[(53:)-599.7(    @Override)]TJ
+T*
+[(54:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(boolean)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( onCreateOptionsMenu\(Menu menu\) {)Tj
+-13.2 -1.1 TD
+[(55:)-599.7(        )]TJ
+T*
+[(56:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(// Inflate the menu; this adds items to the action bar if it is present.)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(57:)Tj
+0 g
+2.4 0 TD
+(        getMenuInflater\(\).inflate\(R.menu.list_view, menu\);)Tj
+-2.4 -1.1 TD
+[(58:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(true)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(;)Tj
+-13.8 -1.1 TD
+[(59:)-599.7(    })]TJ
+T*
+(60:)Tj
+T*
+[(61:)-599.7(    @Override)]TJ
+T*
+[(62:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(boolean)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( onOptionsItemSelected\(MenuItem item\) {)Tj
+-13.2 -1.1 TD
+[(63:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(// Handle action bar item clicks here. The action bar will)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(64:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+4.8 0 TD
+(// automatically handle clicks on the Home/Up button, so long)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(65:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+4.8 0 TD
+(// as you specify a parent activity in AndroidManifest.xml.)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(66:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( id = item.getItemId\(\);)Tj
+-9 -1.1 TD
+[(67:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(if)Tj
+/TT4 1 Tf
+0 g
+1.2 0 TD
+( \(id == R.id.action_settings\) {)Tj
+-8.4 -1.1 TD
+[(68:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(true)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(;)Tj
+-16.2 -1.1 TD
+[(69:)-599.7(        })]TJ
+T*
+[(70:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(super)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(.onOptionsItemSelected\(item\);)Tj
+-14.4 -1.1 TD
+[(71:)-599.7(    })]TJ
+T*
+(72:)Tj
+T*
+(73:)Tj
+T*
+[(74:)-599.7(})]TJ
+ET
+endstream
+endobj
+11 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+13 0 obj
+<<
+/Length 2246
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(Place.java)-28398.2(spawrks 09/18/14)-29598.4(2-1/1\(3\))]TJ
+/TT4 1 Tf
+2.5 -1.6333 TD
+(1:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(package)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( com.delta.listviews;)Tj
+-6 -1.1 TD
+(2:)Tj
+T*
+(3:)Tj
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+1.8 0 TD
+(/**)Tj
+/TT4 1 Tf
+-1.8 -1.1 TD
+(4:)Tj
+/TT6 1 Tf
+1.8 0 TD
+( * Created by spawrks on 2/13/14.)Tj
+/TT4 1 Tf
+-1.8 -1.1 TD
+(5:)Tj
+/TT6 1 Tf
+1.8 0 TD
+( */)Tj
+/TT4 1 Tf
+0 g
+-1.8 -1.1 TD
+(6:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(class)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+( Place {)Tj
+-9 -1.1 TD
+(7:)Tj
+T*
+[(8:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( String mNameOfPlace;)Tj
+-7.8 -1.1 TD
+[(9:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( mZipCode;)Tj
+-10.8 -1.1 TD
+[(10:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( String mNameOfImage;)Tj
+-8.4 -1.1 TD
+[(11:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( String mPopup;)Tj
+-8.4 -1.1 TD
+(12:)Tj
+T*
+[(13:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( Place \(String startNameOfPlace, )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+19.8 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( startZipCode,String startNameOfImage, String startPopup \){)Tj
+-30 -1.1 TD
+(14:)Tj
+T*
+[(15:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mNameOfPlace = startNameOfPlace;)Tj
+-9.6 -1.1 TD
+[(16:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mZipCode = startZipCode;)Tj
+-9.6 -1.1 TD
+[(17:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mNameOfImage = startNameOfImage;)Tj
+-9.6 -1.1 TD
+[(18:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mPopup = startPopup;)Tj
+-9.6 -1.1 TD
+(19:)Tj
+T*
+[(20:)-599.7(    })]TJ
+T*
+(21:)Tj
+T*
+[(22:)-599.7(})]TJ
+ET
+endstream
+endobj
+14 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 382
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(Table of Contents)-24197.6(spawrks 09/18/14)-30198.5(-1/1\(4\))]TJ
+/TT4 1 Tf
+0 -1.6333 TD
+(  1 listviews/src/main/java/com/delta/listviews/ListViewActivity.java   2 pages   74 lines  14/09/18 21:06:57)Tj
+0 -1.1 TD
+(  2 listviews/src/main/java/com/delta/listviews/Place.java   1 pages   21 lines  14/09/18 21:01:34)Tj
+ET
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+7 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+18 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+19 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+20 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 99
+/FontBBox [-28 -250 742 805]
+/FontName /Courier-Oblique
+/ItalicAngle -15
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 600 600 0 0 0 0 0 600 600 0 0 600 600 600 600 
+600 600 600 600 600 0 0 0 600 600 0 0 0 0 0 600 
+0 600 600 600 0 600 600 0 600 600 0 0 600 0 600 600 
+600 0 0 600 600 600 600 0 0 600 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 18 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 125
+/Widths [600 0 0 0 0 0 0 0 600 600 0 0 600 0 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 0 600 0 0 
+600 600 600 600 0 0 600 600 0 600 0 0 600 600 600 600 
+600 0 600 600 0 0 600 0 0 0 600 600 0 600 0 600 
+0 600 0 600 600 600 600 600 0 600 600 0 600 600 600 600 
+600 0 600 600 600 600 600 600 0 600 0 600 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 19 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [600 0 0 0 0 0 0 0 0 0 600 0 600 0 600 600 
+0 600 600 600 600 0 0 0 0 0 0 600 0 0 0 0 
+0 600 0 600 0 0 0 0 600 600 0 0 0 600 0 0 
+0 0 0 0 600 600 0 0 0 0 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 0 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+/FontDescriptor 20 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 11 0 R
+/Contents 10 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 14 0 R
+/Contents 13 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+>>
+endobj
+21 0 obj
+<<
+/S /D
+>>
+endobj
+22 0 obj
+<<
+/Nums [0 21 0 R ]
+>>
+endobj
+8 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 9 0 R 12 0 R 15 0 R]
+/Count 4
+/Rotate 90
+/MediaBox [0 0 595 842]
+>>
+endobj
+23 0 obj
+<<
+/CreationDate (D:20140918210657-05'00')
+/ModDate (D:20140918210657-05'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 8 0 R
+/PageLabels 22 0 R
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000017298 00000 n 
+0000000016 00000 n 
+0000009240 00000 n 
+0000015874 00000 n 
+0000016392 00000 n 
+0000016865 00000 n 
+0000015140 00000 n 
+0000017694 00000 n 
+0000017378 00000 n 
+0000009357 00000 n 
+0000012064 00000 n 
+0000017460 00000 n 
+0000012182 00000 n 
+0000014481 00000 n 
+0000017543 00000 n 
+0000014599 00000 n 
+0000015033 00000 n 
+0000015280 00000 n 
+0000015482 00000 n 
+0000015673 00000 n 
+0000017626 00000 n 
+0000017654 00000 n 
+0000017806 00000 n 
+0000017929 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [<ccbc7002d468e6736780791b14047e5a><ccbc7002d468e6736780791b14047e5a>]
+>>
+startxref
+17998
+%%EOF

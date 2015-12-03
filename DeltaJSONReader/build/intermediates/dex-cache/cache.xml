@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\robertsg\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\robertsg\AndroidStudioProjects\DeltaJSONReader\JSONReader\build\intermediates\pre-dexed\debug\support-v4-19.1.0-76ee9298dd0f61f94f8ef4735ea721a8c58cbe59.jar" />
+    </item>
+    <item
+        jar="C:\Users\robertsg\AndroidStudioProjects\DeltaJSONReader\JSONReader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\robertsg\AndroidStudioProjects\DeltaJSONReader\JSONReader\build\intermediates\pre-dexed\debug\classes-f2fcd134f4b0fd6864c27a8bc7c6701d955368f6.jar" />
+    </item>
+
+</items>

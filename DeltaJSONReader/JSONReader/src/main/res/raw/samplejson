@@ -1,0 +1,102 @@
+{
+  "id": "0001",
+  "type": "donut",
+  "name": "Cake",
+  "ppu": 0.55,
+  "stuffinside": {
+    "batter": [
+      {
+        "id": "1001",
+        "type": "Regular"
+      },
+      {
+        "id": "1002",
+        "type": "Chocolate"
+      },
+      {
+        "id": "1003",
+        "type": "Blueberry"
+      },
+      {
+        "id": "1004",
+        "type": "Devil's Food"
+      },
+      {
+        "id": "1005",
+        "type": "Other Moose"
+      },
+      {
+        "id": "1006",
+        "type": "Avacado"
+      },
+      {
+        "id": "1007",
+        "type": "Goat Milk"
+      },
+      {
+        "id": "1008",
+        "type": "Pure Steel"
+      },
+      {
+        "id": "1009",
+        "type": "Glados"
+      },
+      {
+        "id": "1010",
+        "type": "Cheese"
+      },
+      {
+        "id": "1011",
+        "type": "Water"
+      },
+      {
+        "id": "1012",
+        "type": "Air"
+      }
+    ],
+    "badstuff": [
+      {
+        "id": "1001",
+        "type": "Spoon"
+      },
+      {
+        "id": "1002",
+        "type": "Fork"
+      },
+      {
+        "id": "1003",
+        "type": "Rat Poison"
+      }
+    ]
+  },
+  "topping": [
+    {
+      "id": "5001",
+      "type": "None"
+    },
+    {
+      "id": "5002",
+      "type": "Glazed"
+    },
+    {
+      "id": "5005",
+      "type": "Sugar"
+    },
+    {
+      "id": "5007",
+      "type": "Powdered Sugar"
+    },
+    {
+      "id": "5006",
+      "type": "Chocolate with Sprinkles"
+    },
+    {
+      "id": "5003",
+      "type": "Chocolate"
+    },
+    {
+      "id": "5004",
+      "type": "Maple"
+    }
+  ]
+}

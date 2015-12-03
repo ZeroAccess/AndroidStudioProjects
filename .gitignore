@@ -1,0 +1,57 @@
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+#CatchAll
+bin/
+gen/
+.class
+*.iml
+*.jar
+
+##Program Specific
+
+#################
+## Android Studio
+#################
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+*.apk
+*.ap_
+
+#################
+## IntelliJ
+#################
+.idea
+/out/
+
+#################
+## Eclipse
+#################
+.classpath
+.project
+.settings
+/.settings
+
+#################
+## Windows
+#################
+Thumbs.db
