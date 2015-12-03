@@ -1,0 +1,1300 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 5056
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(AndroidManifest.xml)-22997.4(spawrks 09/18/14)-29598.4(1-1/1\(1\))]TJ
+/TT4 1 Tf
+2.5 -1.6333 TD
+(1:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(<?xml version=)Tj
+0.737 0.561 0.561 rg
+8.4 0 TD
+("1.0")Tj
+0.627 0.125 0.941 rg
+3 0 TD
+( encoding=)Tj
+0.737 0.561 0.561 rg
+6 0 TD
+("utf-8")Tj
+0.627 0.125 0.941 rg
+4.2 0 TD
+(?>)Tj
+/TT4 1 Tf
+0 g
+-23.4 -1.1 TD
+(2:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(<manifest xmlns:android=)Tj
+0.737 0.561 0.561 rg
+14.4 0 TD
+("http://schemas.android.com/apk/res/android")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-16.2 -1.1 TD
+(3:)Tj
+/TT2 1 Tf
+1.8 0 TD
+(    package=)Tj
+0.737 0.561 0.561 rg
+7.2 0 TD
+("com.delta.activities")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-9 -1.1 TD
+(4:)Tj
+/TT2 1 Tf
+1.8 0 TD
+(    android:versionCode=)Tj
+0.737 0.561 0.561 rg
+14.4 0 TD
+("1")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-16.2 -1.1 TD
+(5:)Tj
+/TT2 1 Tf
+1.8 0 TD
+(    android:versionName=)Tj
+0.737 0.561 0.561 rg
+14.4 0 TD
+("1.0")Tj
+0.627 0.125 0.941 rg
+3 0 TD
+( >)Tj
+/TT4 1 Tf
+0 g
+-19.2 -1.1 TD
+(6:)Tj
+T*
+[(7:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.CAMERA")Tj
+0.627 0.125 0.941 rg
+16.2 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-38.4 -1.1 TD
+[(8:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.READ_CONTACTS")Tj
+0.627 0.125 0.941 rg
+20.4 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-42.6 -1.1 TD
+[(9:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.INTERNET")Tj
+0.627 0.125 0.941 rg
+17.4 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-40.2 -1.1 TD
+[(10:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.CALL_PHONE")Tj
+0.627 0.125 0.941 rg
+18.6 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-41.4 -1.1 TD
+(11:)Tj
+T*
+[(12:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(<uses-sdk)Tj
+/TT4 1 Tf
+-4.8 -1.1 TD
+(13:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(        android:minSdkVersion=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("17")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-20.4 -1.1 TD
+(14:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(        android:targetSdkVersion=)Tj
+0.737 0.561 0.561 rg
+19.8 0 TD
+("19")Tj
+0.627 0.125 0.941 rg
+2.4 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-24.6 -1.1 TD
+(15:)Tj
+T*
+[(16:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(<application)Tj
+/TT4 1 Tf
+-4.8 -1.1 TD
+(17:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(        android:allowBackup=)Tj
+0.737 0.561 0.561 rg
+16.8 0 TD
+("true")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-19.2 -1.1 TD
+(18:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(        android:icon=)Tj
+0.737 0.561 0.561 rg
+12.6 0 TD
+("@drawable/ic_launcher")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-15 -1.1 TD
+(19:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(        android:label=)Tj
+0.737 0.561 0.561 rg
+13.2 0 TD
+("@string/app_name")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-15.6 -1.1 TD
+(20:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(        android:theme=)Tj
+0.737 0.561 0.561 rg
+13.2 0 TD
+("@style/AppTheme")Tj
+0.627 0.125 0.941 rg
+10.2 0 TD
+( >)Tj
+/TT4 1 Tf
+0 g
+-25.8 -1.1 TD
+[(21:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(<activity)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(22:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(            android:name=)Tj
+0.737 0.561 0.561 rg
+15 0 TD
+("com.delta.activities.FirstActivity")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-17.4 -1.1 TD
+(23:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(            android:label=)Tj
+0.737 0.561 0.561 rg
+15.6 0 TD
+("@string/app_name")Tj
+0.627 0.125 0.941 rg
+10.8 0 TD
+( >)Tj
+/TT4 1 Tf
+0 g
+-28.8 -1.1 TD
+[(24:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(<intent-filter>)Tj
+/TT4 1 Tf
+0 g
+-9.6 -1.1 TD
+[(25:)-599.7(                )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+12 0 TD
+(<action android:name=)Tj
+0.737 0.561 0.561 rg
+12.6 0 TD
+("android.intent.action.MAIN")Tj
+0.627 0.125 0.941 rg
+16.8 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-41.4 -1.1 TD
+(26:)Tj
+T*
+[(27:)-599.7(                )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+12 0 TD
+(<category android:name=)Tj
+0.737 0.561 0.561 rg
+13.8 0 TD
+("android.intent.category.LAUNCHER")Tj
+0.627 0.125 0.941 rg
+20.4 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-46.2 -1.1 TD
+[(28:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(</intent-filter>)Tj
+/TT4 1 Tf
+0 g
+-9.6 -1.1 TD
+[(29:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(</activity>)Tj
+/TT4 1 Tf
+0 g
+-7.2 -1.1 TD
+[(30:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(<activity)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(31:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(            android:name=)Tj
+0.737 0.561 0.561 rg
+15 0 TD
+("com.delta.activities.SecondActivity")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-17.4 -1.1 TD
+(32:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(            android:label=)Tj
+0.737 0.561 0.561 rg
+15.6 0 TD
+("@string/app_name")Tj
+0.627 0.125 0.941 rg
+10.8 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-28.8 -1.1 TD
+[(33:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(</application>)Tj
+/TT4 1 Tf
+0 g
+-4.8 -1.1 TD
+(34:)Tj
+T*
+(35:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(</manifest>)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Length 6044
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(AndroidManifest.xml)-22997.4(spawrks 09/18/14)-29598.4(2-1/1\(2\))]TJ
+/TT4 1 Tf
+2.5 -1.6333 TD
+(1:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(<!-- From: file:/Users/learnovate/AndroidStudioProjects/DeltaActivities/activities/src/main/AndroidManifest.xml -->)Tj
+/TT4 1 Tf
+0 g
+-1.8 -1.1 TD
+(2:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(<manifest xmlns:android=)Tj
+0.737 0.561 0.561 rg
+14.4 0 TD
+("http://schemas.android.com/apk/res/android")Tj
+0.627 0.125 0.941 rg
+26.4 0 TD
+( android:versionCode=)Tj
+0.737 0.561 0.561 rg
+12.6 0 TD
+("1")Tj
+0.627 0.125 0.941 rg
+1.8 0 TD
+( android:versionName=)Tj
+0.737 0.561 0.561 rg
+12.6 0 TD
+("1.0")Tj
+0.627 0.125 0.941 rg
+3 0 TD
+( pack)Tj
+-75.1 -1.1 TD
+(age=)Tj
+0.737 0.561 0.561 rg
+2.4 0 TD
+("com.delta.activities")Tj
+0.627 0.125 0.941 rg
+13.2 0 TD
+(>)Tj
+/TT4 1 Tf
+0 g
+-13.1 -1.1 TD
+[(3:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-sdk android:minSdkVersion=)Tj
+0.737 0.561 0.561 rg
+19.2 0 TD
+("17")Tj
+0.627 0.125 0.941 rg
+2.4 0 TD
+( android:targetSdkVersion=)Tj
+0.737 0.561 0.561 rg
+15.6 0 TD
+("19")Tj
+0.627 0.125 0.941 rg
+2.4 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-43.8 -1.1 TD
+(4:)Tj
+T*
+[(5:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.CAMERA")Tj
+0.627 0.125 0.941 rg
+16.2 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-38.4 -1.1 TD
+[(6:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.READ_CONTACTS")Tj
+0.627 0.125 0.941 rg
+20.4 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-42.6 -1.1 TD
+[(7:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.INTERNET")Tj
+0.627 0.125 0.941 rg
+17.4 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-39.6 -1.1 TD
+[(8:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.CALL_PHONE")Tj
+0.627 0.125 0.941 rg
+18.6 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-40.8 -1.1 TD
+(9:)Tj
+-0.6 -1.1 TD
+(10:)Tj
+T*
+[(11:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(<application android:allowBackup=)Tj
+0.737 0.561 0.561 rg
+19.8 0 TD
+("true")Tj
+0.627 0.125 0.941 rg
+3.6 0 TD
+( android:icon=)Tj
+0.737 0.561 0.561 rg
+8.4 0 TD
+("@drawable/ic_launcher")Tj
+0.627 0.125 0.941 rg
+13.8 0 TD
+( android:label=)Tj
+0.737 0.561 0.561 rg
+9 0 TD
+("@string/app_name")Tj
+0.627 0.125 0.941 rg
+10.8 0 TD
+( android:t)Tj
+-72.1 -1.1 TD
+(heme=)Tj
+0.737 0.561 0.561 rg
+3 0 TD
+("@style/AppTheme")Tj
+0.627 0.125 0.941 rg
+10.2 0 TD
+(>)Tj
+/TT4 1 Tf
+0 g
+-11.3 -1.1 TD
+[(12:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(<activity android:label=)Tj
+0.737 0.561 0.561 rg
+14.4 0 TD
+("@string/app_name")Tj
+0.627 0.125 0.941 rg
+10.8 0 TD
+( android:name=)Tj
+0.737 0.561 0.561 rg
+8.4 0 TD
+("com.delta.activities.FirstActivity")Tj
+0.627 0.125 0.941 rg
+21.6 0 TD
+(>)Tj
+/TT4 1 Tf
+0 g
+-62.4 -1.1 TD
+[(13:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(<intent-filter>)Tj
+/TT4 1 Tf
+0 g
+-9.6 -1.1 TD
+[(14:)-599.7(                )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+12 0 TD
+(<action android:name=)Tj
+0.737 0.561 0.561 rg
+12.6 0 TD
+("android.intent.action.MAIN")Tj
+0.627 0.125 0.941 rg
+16.8 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-41.4 -1.1 TD
+[(15:)-599.7(                )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+12 0 TD
+(<category android:name=)Tj
+0.737 0.561 0.561 rg
+13.8 0 TD
+("android.intent.category.LAUNCHER")Tj
+0.627 0.125 0.941 rg
+20.4 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-46.2 -1.1 TD
+[(16:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(</intent-filter>)Tj
+/TT4 1 Tf
+0 g
+-9.6 -1.1 TD
+[(17:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(</activity>)Tj
+/TT4 1 Tf
+0 g
+-7.2 -1.1 TD
+[(18:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(<activity android:label=)Tj
+0.737 0.561 0.561 rg
+14.4 0 TD
+("@string/app_name")Tj
+0.627 0.125 0.941 rg
+10.8 0 TD
+( android:name=)Tj
+0.737 0.561 0.561 rg
+8.4 0 TD
+("com.delta.activities.SecondActivity")Tj
+0.627 0.125 0.941 rg
+22.2 0 TD
+(>)Tj
+/TT4 1 Tf
+0 g
+-63 -1.1 TD
+(19:)Tj
+T*
+[(20:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(<intent-filter>)Tj
+/TT4 1 Tf
+0 g
+-9.6 -1.1 TD
+[(21:)-599.7(                )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+12 0 TD
+(<data android:host=)Tj
+0.737 0.561 0.561 rg
+11.4 0 TD
+("deltaprogram.us")Tj
+0.627 0.125 0.941 rg
+10.2 0 TD
+( android:scheme=)Tj
+0.737 0.561 0.561 rg
+9.6 0 TD
+("http")Tj
+0.627 0.125 0.941 rg
+3.6 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-46.8 -1.1 TD
+[(22:)-599.7(                )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+12 0 TD
+(<action android:name=)Tj
+0.737 0.561 0.561 rg
+12.6 0 TD
+("android.intent.action.VIEW")Tj
+0.627 0.125 0.941 rg
+16.8 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-41.4 -1.1 TD
+[(23:)-599.7(                )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+12 0 TD
+(<category android:name=)Tj
+0.737 0.561 0.561 rg
+13.8 0 TD
+("android.intent.category.BROWSABLE")Tj
+0.627 0.125 0.941 rg
+21 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-46.8 -1.1 TD
+[(24:)-599.7(                )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+12 0 TD
+(<category android:name=)Tj
+0.737 0.561 0.561 rg
+13.8 0 TD
+("android.intent.category.DEFAULT")Tj
+0.627 0.125 0.941 rg
+19.8 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-45.6 -1.1 TD
+[(25:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(</intent-filter>)Tj
+/TT4 1 Tf
+0 g
+-9.6 -1.1 TD
+(26:)Tj
+T*
+[(27:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(</activity>)Tj
+/TT4 1 Tf
+0 g
+-7.2 -1.1 TD
+[(28:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(<activity android:label=)Tj
+0.737 0.561 0.561 rg
+14.4 0 TD
+("@string/app_name")Tj
+0.627 0.125 0.941 rg
+10.8 0 TD
+( android:name=)Tj
+0.737 0.561 0.561 rg
+8.4 0 TD
+("com.delta.activities.DetailActivity")Tj
+0.627 0.125 0.941 rg
+22.2 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-63 -1.1 TD
+[(29:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(</application>)Tj
+/TT4 1 Tf
+0 g
+-4.8 -1.1 TD
+(30:)Tj
+T*
+(31:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(</manifest>)Tj
+ET
+endstream
+endobj
+10 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 4353
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(AndroidManifest.xml)-22997.4(spawrks 09/18/14)-29598.4(3-1/1\(3\))]TJ
+/TT4 1 Tf
+2.5 -1.6333 TD
+(1:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(<?xml version=)Tj
+0.737 0.561 0.561 rg
+8.4 0 TD
+("1.0")Tj
+0.627 0.125 0.941 rg
+3 0 TD
+( encoding=)Tj
+0.737 0.561 0.561 rg
+6 0 TD
+("utf-8")Tj
+0.627 0.125 0.941 rg
+4.2 0 TD
+(?>)Tj
+/TT4 1 Tf
+0 g
+-23.4 -1.1 TD
+(2:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(<manifest xmlns:android=)Tj
+0.737 0.561 0.561 rg
+14.4 0 TD
+("http://schemas.android.com/apk/res/android")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-16.2 -1.1 TD
+(3:)Tj
+/TT2 1 Tf
+1.8 0 TD
+(    package=)Tj
+0.737 0.561 0.561 rg
+7.2 0 TD
+("com.delta.activities")Tj
+0.627 0.125 0.941 rg
+13.2 0 TD
+( >)Tj
+/TT4 1 Tf
+0 g
+-22.2 -1.1 TD
+(4:)Tj
+T*
+[(5:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.CAMERA")Tj
+0.627 0.125 0.941 rg
+16.2 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-38.4 -1.1 TD
+[(6:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.READ_CONTACTS")Tj
+0.627 0.125 0.941 rg
+20.4 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-42.6 -1.1 TD
+[(7:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.INTERNET")Tj
+0.627 0.125 0.941 rg
+17.4 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-39.6 -1.1 TD
+[(8:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(<uses-permission android:name=)Tj
+0.737 0.561 0.561 rg
+18 0 TD
+("android.permission.CALL_PHONE")Tj
+0.627 0.125 0.941 rg
+18.6 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-40.8 -1.1 TD
+(9:)Tj
+-0.6 -1.1 TD
+(10:)Tj
+T*
+[(11:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(<application)Tj
+/TT4 1 Tf
+-4.8 -1.1 TD
+(12:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(        android:allowBackup=)Tj
+0.737 0.561 0.561 rg
+16.8 0 TD
+("true")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-19.2 -1.1 TD
+(13:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(        android:icon=)Tj
+0.737 0.561 0.561 rg
+12.6 0 TD
+("@drawable/ic_launcher")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-15 -1.1 TD
+(14:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(        android:label=)Tj
+0.737 0.561 0.561 rg
+13.2 0 TD
+("@string/app_name")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-15.6 -1.1 TD
+(15:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(        android:theme=)Tj
+0.737 0.561 0.561 rg
+13.2 0 TD
+("@style/AppTheme")Tj
+0.627 0.125 0.941 rg
+10.2 0 TD
+( >)Tj
+/TT4 1 Tf
+0 g
+-25.8 -1.1 TD
+[(16:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(<activity)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(17:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(            android:name=)Tj
+0.737 0.561 0.561 rg
+15 0 TD
+("com.delta.activities.FirstActivity")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-17.4 -1.1 TD
+(18:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(            android:label=)Tj
+0.737 0.561 0.561 rg
+15.6 0 TD
+("@string/app_name")Tj
+0.627 0.125 0.941 rg
+10.8 0 TD
+( >)Tj
+/TT4 1 Tf
+0 g
+-28.8 -1.1 TD
+[(19:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(<intent-filter>)Tj
+/TT4 1 Tf
+0 g
+-9.6 -1.1 TD
+[(20:)-599.7(                )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+12 0 TD
+(<action android:name=)Tj
+0.737 0.561 0.561 rg
+12.6 0 TD
+("android.intent.action.MAIN")Tj
+0.627 0.125 0.941 rg
+16.8 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-41.4 -1.1 TD
+[(21:)-599.7(                )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+12 0 TD
+(<category android:name=)Tj
+0.737 0.561 0.561 rg
+13.8 0 TD
+("android.intent.category.LAUNCHER")Tj
+0.627 0.125 0.941 rg
+20.4 0 TD
+( />)Tj
+/TT4 1 Tf
+0 g
+-46.2 -1.1 TD
+[(22:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(</intent-filter>)Tj
+/TT4 1 Tf
+0 g
+-9.6 -1.1 TD
+(23:)Tj
+T*
+[(24:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(</activity>)Tj
+/TT4 1 Tf
+0 g
+-7.2 -1.1 TD
+[(25:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(<activity)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(26:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(            android:name=)Tj
+0.737 0.561 0.561 rg
+15 0 TD
+(".SecondActivity")Tj
+/TT4 1 Tf
+0.627 0.125 0.941 rg
+-17.4 -1.1 TD
+(27:)Tj
+/TT2 1 Tf
+2.4 0 TD
+(            android:label=)Tj
+0.737 0.561 0.561 rg
+15.6 0 TD
+("@string/app_name")Tj
+0.627 0.125 0.941 rg
+10.8 0 TD
+(/>)Tj
+/TT4 1 Tf
+0 g
+-28.8 -1.1 TD
+[(28:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(</application>)Tj
+/TT4 1 Tf
+0 g
+-4.8 -1.1 TD
+(29:)Tj
+T*
+(30:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(</manifest>)Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+15 0 obj
+<<
+/Length 478
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(Table of Contents)-24197.6(spawrks 09/18/14)-30198.5(-1/1\(4\))]TJ
+/TT4 1 Tf
+0 -1.6333 TD
+(  1 ./activities/build/intermediates/manifests/debug/AndroidManifest.xml   1 pages   34 lines  14/09/18 20:31:27)Tj
+0 -1.1 TD
+(  2 ./activities/build/manifests/debug/AndroidManifest.xml   1 pages   31 lines  14/02/19 21:13:08)Tj
+T*
+(  3 ./activities/src/main/AndroidManifest.xml   1 pages   30 lines  14/09/18 20:31:02)Tj
+ET
+endstream
+endobj
+16 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 6 0 R
+>>
+>>
+endobj
+6 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+17 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+18 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [600 600 600 0 0 0 0 0 600 600 0 0 0 600 600 600 
+600 600 600 600 600 0 0 600 600 600 600 0 600 600 600 600 
+600 600 600 600 600 600 600 0 600 600 0 0 600 600 600 600 
+600 0 600 600 600 600 600 600 0 0 0 0 0 0 0 600 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 17 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 120
+/Widths [600 0 0 0 0 0 0 0 0 0 0 0 0 0 600 600 
+600 600 600 600 600 600 600 600 600 600 600 0 0 0 0 0 
+0 600 0 0 0 0 0 0 0 0 0 0 0 600 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 0 600 0 0 600 600 600 600 
+600 0 600 600 600 600 600 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 18 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 10 0 R
+/Contents 9 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 7 0 R
+/Resources 16 0 R
+/Contents 15 0 R
+>>
+endobj
+19 0 obj
+<<
+/S /D
+>>
+endobj
+20 0 obj
+<<
+/Nums [0 19 0 R ]
+>>
+endobj
+7 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 8 0 R 11 0 R 14 0 R]
+/Count 4
+/Rotate 90
+/MediaBox [0 0 595 842]
+>>
+endobj
+21 0 obj
+<<
+/CreationDate (D:20140918203535-05'00')
+/ModDate (D:20140918203535-05'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 7 0 R
+/PageLabels 20 0 R
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000018011 00000 n 
+0000000016 00000 n 
+0000005124 00000 n 
+0000017116 00000 n 
+0000017598 00000 n 
+0000016583 00000 n 
+0000018406 00000 n 
+0000018091 00000 n 
+0000005230 00000 n 
+0000011326 00000 n 
+0000018172 00000 n 
+0000011433 00000 n 
+0000015839 00000 n 
+0000018255 00000 n 
+0000015946 00000 n 
+0000016476 00000 n 
+0000016723 00000 n 
+0000016925 00000 n 
+0000018338 00000 n 
+0000018366 00000 n 
+0000018518 00000 n 
+0000018641 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [<83274ed5978104879be8c985daf47bb1><83274ed5978104879be8c985daf47bb1>]
+>>
+startxref
+18710
+%%EOF

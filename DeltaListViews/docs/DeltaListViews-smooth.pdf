@@ -1,0 +1,2339 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 9130
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(ListViewActivity.java)-21797.2(spawrks 09/18/14)-29598.4(1-1/2\(1\))]TJ
+/TT4 1 Tf
+2.5 -1.6333 TD
+(1:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(package)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( com.delta.listviews;)Tj
+-6 -1.1 TD
+(2:)Tj
+T*
+(3:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.app.Activity;)Tj
+-5.4 -1.1 TD
+(4:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.app.ActionBar;)Tj
+-5.4 -1.1 TD
+(5:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.app.Fragment;)Tj
+-5.4 -1.1 TD
+(6:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.os.Bundle;)Tj
+-5.4 -1.1 TD
+(7:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.util.Log;)Tj
+-5.4 -1.1 TD
+(8:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.LayoutInflater;)Tj
+-5.4 -1.1 TD
+(9:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.Menu;)Tj
+-6 -1.1 TD
+(10:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.MenuItem;)Tj
+-6 -1.1 TD
+(11:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.View;)Tj
+-6 -1.1 TD
+(12:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.ViewGroup;)Tj
+-6 -1.1 TD
+(13:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.os.Build;)Tj
+-6 -1.1 TD
+(14:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.widget.AdapterView;)Tj
+-6 -1.1 TD
+(15:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.widget.ListView;)Tj
+-6 -1.1 TD
+(16:)Tj
+T*
+(17:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(class)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+( ListViewActivity )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+10.8 0 TD
+(extends)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( Activity {)Tj
+-24.6 -1.1 TD
+[(18:)-599.7(    )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+4.8 0 TD
+(//initial data)Tj
+/TT4 1 Tf
+-4.8 -1.1 TD
+(19:)Tj
+0 g
+2.4 0 TD
+(    Place[] myPlacesArray = )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+16.8 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place[]{)Tj
+-21 -1.1 TD
+[(20:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Art House")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(, 78701 , )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+6 0 TD
+("art")Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+( ,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("This place is tasteful")Tj
+/TT4 1 Tf
+0 g
+14.4 0 TD
+(\),)Tj
+-46.8 -1.1 TD
+[(21:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Bike Shop")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("bike")Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+(,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+0.6 0 TD
+("Cool bikes")Tj
+/TT4 1 Tf
+0 g
+7.2 0 TD
+(\),)Tj
+-39 -1.1 TD
+[(22:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Camera Fix")Tj
+/TT4 1 Tf
+0 g
+7.2 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("polaroids")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+0.6 0 TD
+("These guys always rip me off")Tj
+/TT4 1 Tf
+0 g
+18 0 TD
+(\),)Tj
+-53.4 -1.1 TD
+[(23:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("YETspace")Tj
+/TT4 1 Tf
+0 g
+6 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("radio")Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+(, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("I LOVE this place")Tj
+/TT4 1 Tf
+0 g
+11.4 0 TD
+(\),)Tj
+-43.8 -1.1 TD
+[(24:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Secret Space Pad")Tj
+/TT4 1 Tf
+0 g
+10.8 0 TD
+(, 94103, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("rocket")Tj
+/TT4 1 Tf
+0 g
+4.8 0 TD
+(,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+0.6 0 TD
+("Not very secret, are they?")Tj
+/TT4 1 Tf
+0 g
+16.8 0 TD
+(\),)Tj
+-54 -1.1 TD
+[(25:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Taylorís Tailor")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(, 60610, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("scissors")Tj
+/TT4 1 Tf
+0 g
+6 0 TD
+( , )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.8 0 TD
+("Looking good..")Tj
+/TT4 1 Tf
+0 g
+9.6 0 TD
+(\),)Tj
+-48.6 -1.1 TD
+[(26:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Boathouse")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(, 78701, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("shipwheel")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+( ,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("That place is full of pirates!")Tj
+/TT4 1 Tf
+0 g
+19.2 0 TD
+(\),)Tj
+-54.6 -1.1 TD
+[(27:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Not Apple Store")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("tablet")Tj
+/TT4 1 Tf
+0 g
+4.8 0 TD
+(, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("Android rules!")Tj
+/TT4 1 Tf
+0 g
+9.6 0 TD
+(\),)Tj
+-46.8 -1.1 TD
+[(28:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Tool Battleground")Tj
+/TT4 1 Tf
+0 g
+11.4 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("tools")Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+(, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("That place is dangerous")Tj
+/TT4 1 Tf
+0 g
+15 0 TD
+(\),)Tj
+-52.8 -1.1 TD
+[(29:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Travelpediocity")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(, 78702, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("travelerbag")Tj
+/TT4 1 Tf
+0 g
+7.8 0 TD
+( ,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("This is where i booked my summer trip")Tj
+/TT4 1 Tf
+0 g
+23.4 0 TD
+(\),)Tj
+-63.6 -1.1 TD
+[(30:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("UFO Pick-a-part")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(, 90210, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("ufo")Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+0.6 0 TD
+("Out of this world stuff here.")Tj
+/TT4 1 Tf
+0 g
+18.6 0 TD
+(\),)Tj
+-53.4 -1.1 TD
+[(31:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( Place\()Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+4.2 0 TD
+("Spawrkís House")Tj
+/TT4 1 Tf
+0 g
+9.6 0 TD
+(, 99999, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+5.4 0 TD
+("volume")Tj
+/TT4 1 Tf
+0 g
+4.8 0 TD
+(, )Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+1.2 0 TD
+("The music is always so good")Tj
+/TT4 1 Tf
+0 g
+17.4 0 TD
+(\),)Tj
+-54 -1.1 TD
+[(32:)-599.7(    };)]TJ
+T*
+(33:)Tj
+T*
+[(34:)-599.7(    String[] myStringArray = )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+19.8 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( String[]{)Tj
+-21.6 -1.1 TD
+[(35:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Art House")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(,)Tj
+-16.2 -1.1 TD
+[(36:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Bike Shop")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(,)Tj
+-16.2 -1.1 TD
+[(37:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Camera Fix")Tj
+/TT4 1 Tf
+0 g
+7.2 0 TD
+(,)Tj
+-16.8 -1.1 TD
+[(38:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("YETspace")Tj
+/TT4 1 Tf
+0 g
+6 0 TD
+(,)Tj
+-15.6 -1.1 TD
+[(39:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Secret Space Pad")Tj
+/TT4 1 Tf
+0 g
+10.8 0 TD
+(,)Tj
+-20.4 -1.1 TD
+[(40:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Taylorís Tailor")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(,)Tj
+-19.8 -1.1 TD
+[(41:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Boathouse")Tj
+/TT4 1 Tf
+0 g
+6.6 0 TD
+(,)Tj
+-16.2 -1.1 TD
+[(42:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Not Apple Store")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(,)Tj
+-19.8 -1.1 TD
+[(43:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Tool Battleground")Tj
+/TT4 1 Tf
+0 g
+11.4 0 TD
+(,)Tj
+-21 -1.1 TD
+[(44:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Travelpediocity")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(,)Tj
+-19.8 -1.1 TD
+[(45:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("UFO Pick-a-part")Tj
+/TT4 1 Tf
+0 g
+10.2 0 TD
+(,)Tj
+-19.8 -1.1 TD
+[(46:)-599.7(            )]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+9.6 0 TD
+("Spawrkís House")Tj
+/TT4 1 Tf
+0 g
+9.6 0 TD
+(,)Tj
+-19.2 -1.1 TD
+[(47:)-599.7(    };)]TJ
+T*
+(48:)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Length 4876
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(ListViewActivity.java)-21797.2(spawrks 09/18/14)-29598.4(1-2/2\(2\))]TJ
+/TT4 1 Tf
+1.9 -1.6333 TD
+[(49:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(private)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( ListView mListView;)Tj
+-9 -1.1 TD
+[(50:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(private)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( PlaceAdapter mPlaceAdapter;)Tj
+-9 -1.1 TD
+(51:)Tj
+T*
+[(52:)-599.7(    @Override)]TJ
+T*
+[(53:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(protected)Tj
+/TT4 1 Tf
+0 g
+5.4 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(void)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+( onCreate\(Bundle savedInstanceState\) {)Tj
+-13.2 -1.1 TD
+[(54:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(super)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(.onCreate\(savedInstanceState\);)Tj
+-10.2 -1.1 TD
+[(55:)-599.7(        setContentView\(R.layout.activity_list_view\);)]TJ
+T*
+(56:)Tj
+T*
+[(57:)-599.7(        mListView = \(ListView\) findViewById\(R.id.myListView\);)]TJ
+T*
+(58:)Tj
+T*
+[(59:)-599.7(        mPlaceAdapter = )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+16.8 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( PlaceAdapter\(getApplicationContext\(\),R.layout.row,myPlacesArray\);)Tj
+-18.6 -1.1 TD
+(60:)Tj
+T*
+[(61:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(if)Tj
+/TT4 1 Tf
+0 g
+1.2 0 TD
+(\(mListView != )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+8.4 0 TD
+(null)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(\){)Tj
+-19.2 -1.1 TD
+[(62:)-599.7(            mListView.setAdapter\(mPlaceAdapter\);)]TJ
+T*
+[(63:)-599.7(        })]TJ
+T*
+(64:)Tj
+T*
+[(65:)-599.7(        mListView.setOnItemClickListener\()]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+27 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( AdapterView.OnItemClickListener\(\) {)Tj
+-28.8 -1.1 TD
+[(66:)-599.7(            @Override)]TJ
+T*
+[(67:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(void)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+( onItemClick\(AdapterView<?> adapterView, View view, )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+31.2 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( i, )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(long)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+( l\) {)Tj
+-54 -1.1 TD
+[(68:)-599.7(                Log.v\()]TJ
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+15.6 0 TD
+("PLACE")Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+(, myPlacesArray[i].mNameOfPlace\);)Tj
+-19.8 -1.1 TD
+[(69:)-599.7(            })]TJ
+T*
+[(70:)-599.7(        }\);)]TJ
+T*
+(71:)Tj
+T*
+[(72:)-599.7(    })]TJ
+T*
+(73:)Tj
+T*
+[(74:)-599.7(    @Override)]TJ
+T*
+[(75:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(boolean)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( onCreateOptionsMenu\(Menu menu\) {)Tj
+-13.2 -1.1 TD
+[(76:)-599.7(        )]TJ
+T*
+[(77:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(// Inflate the menu; this adds items to the action bar if it is present.)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(78:)Tj
+0 g
+2.4 0 TD
+(        getMenuInflater\(\).inflate\(R.menu.list_view, menu\);)Tj
+-2.4 -1.1 TD
+[(79:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(true)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(;)Tj
+-13.8 -1.1 TD
+[(80:)-599.7(    })]TJ
+T*
+(81:)Tj
+T*
+[(82:)-599.7(    @Override)]TJ
+T*
+[(83:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(boolean)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( onOptionsItemSelected\(MenuItem item\) {)Tj
+-13.2 -1.1 TD
+[(84:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(// Handle action bar item clicks here. The action bar will)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(85:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+4.8 0 TD
+(// automatically handle clicks on the Home/Up button, so long)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(86:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+4.8 0 TD
+(// as you specify a parent activity in AndroidManifest.xml.)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(87:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( id = item.getItemId\(\);)Tj
+-9 -1.1 TD
+[(88:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(if)Tj
+/TT4 1 Tf
+0 g
+1.2 0 TD
+( \(id == R.id.action_settings\) {)Tj
+-8.4 -1.1 TD
+[(89:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(true)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(;)Tj
+-16.2 -1.1 TD
+[(90:)-599.7(        })]TJ
+T*
+[(91:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(super)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(.onOptionsItemSelected\(item\);)Tj
+-14.4 -1.1 TD
+[(92:)-599.7(    })]TJ
+T*
+(93:)Tj
+T*
+(94:)Tj
+T*
+[(95:)-599.7(})]TJ
+ET
+endstream
+endobj
+11 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+13 0 obj
+<<
+/Length 2246
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(Place.java)-28398.2(spawrks 09/18/14)-29598.4(2-1/1\(3\))]TJ
+/TT4 1 Tf
+2.5 -1.6333 TD
+(1:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(package)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( com.delta.listviews;)Tj
+-6 -1.1 TD
+(2:)Tj
+T*
+(3:)Tj
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+1.8 0 TD
+(/**)Tj
+/TT4 1 Tf
+-1.8 -1.1 TD
+(4:)Tj
+/TT6 1 Tf
+1.8 0 TD
+( * Created by spawrks on 2/13/14.)Tj
+/TT4 1 Tf
+-1.8 -1.1 TD
+(5:)Tj
+/TT6 1 Tf
+1.8 0 TD
+( */)Tj
+/TT4 1 Tf
+0 g
+-1.8 -1.1 TD
+(6:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(class)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+( Place {)Tj
+-9 -1.1 TD
+(7:)Tj
+T*
+[(8:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( String mNameOfPlace;)Tj
+-7.8 -1.1 TD
+[(9:)-599.8(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.2 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( mZipCode;)Tj
+-10.8 -1.1 TD
+[(10:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( String mNameOfImage;)Tj
+-8.4 -1.1 TD
+[(11:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( String mPopup;)Tj
+-8.4 -1.1 TD
+(12:)Tj
+T*
+[(13:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( Place \(String startNameOfPlace, )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+19.8 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( startZipCode,String startNameOfImage, String startPopup \){)Tj
+-30 -1.1 TD
+(14:)Tj
+T*
+[(15:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mNameOfPlace = startNameOfPlace;)Tj
+-9.6 -1.1 TD
+[(16:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mZipCode = startZipCode;)Tj
+-9.6 -1.1 TD
+[(17:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mNameOfImage = startNameOfImage;)Tj
+-9.6 -1.1 TD
+[(18:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mPopup = startPopup;)Tj
+-9.6 -1.1 TD
+(19:)Tj
+T*
+[(20:)-599.7(    })]TJ
+T*
+(21:)Tj
+T*
+[(22:)-599.7(})]TJ
+ET
+endstream
+endobj
+14 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 4931
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(PlaceAdapter.java)-24197.6(spawrks 09/18/14)-29598.4(3-1/3\(4\))]TJ
+/TT4 1 Tf
+2.5 -1.6333 TD
+(1:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(package)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( com.delta.listviews;)Tj
+-6 -1.1 TD
+(2:)Tj
+T*
+(3:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.content.Context;)Tj
+-5.4 -1.1 TD
+(4:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.LayoutInflater;)Tj
+-5.4 -1.1 TD
+(5:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.View;)Tj
+-5.4 -1.1 TD
+(6:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.ViewGroup;)Tj
+-5.4 -1.1 TD
+(7:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.widget.ArrayAdapter;)Tj
+-5.4 -1.1 TD
+(8:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.widget.ImageView;)Tj
+-5.4 -1.1 TD
+(9:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.widget.TextView;)Tj
+-6 -1.1 TD
+(10:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.widget.Toast;)Tj
+-6 -1.1 TD
+(11:)Tj
+T*
+(12:)Tj
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+2.4 0 TD
+(/**)Tj
+/TT4 1 Tf
+-2.4 -1.1 TD
+(13:)Tj
+/TT6 1 Tf
+2.4 0 TD
+( * Created by learnovate on 2/17/14.)Tj
+/TT4 1 Tf
+-2.4 -1.1 TD
+(14:)Tj
+/TT6 1 Tf
+2.4 0 TD
+( */)Tj
+/TT4 1 Tf
+0 g
+-2.4 -1.1 TD
+(15:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+2.4 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(class)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+( PlaceAdapter )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+8.4 0 TD
+(extends)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( ArrayAdapter<Place> {)Tj
+-22.2 -1.1 TD
+(16:)Tj
+T*
+[(17:)-599.7(    Context mContext;)]TJ
+T*
+[(18:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( mLayoutResourceId;)Tj
+-6.6 -1.1 TD
+[(19:)-599.7(    Place mData[] = )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+14.4 0 TD
+(null)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(;)Tj
+-16.8 -1.1 TD
+(20:)Tj
+T*
+[(21:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( PlaceAdapter\(Context context, )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+18.6 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( resource, Place[] data\) {)Tj
+-28.8 -1.1 TD
+[(22:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(super)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(\(context, resource, data\);)Tj
+-10.2 -1.1 TD
+(23:)Tj
+T*
+[(24:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mContext = context;)Tj
+-9.6 -1.1 TD
+[(25:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mLayoutResourceId = resource;)Tj
+-9.6 -1.1 TD
+[(26:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(this)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(.mData = data;)Tj
+-9.6 -1.1 TD
+(27:)Tj
+T*
+[(28:)-599.7(    })]TJ
+T*
+(29:)Tj
+T*
+[(30:)-599.7(    @Override)]TJ
+T*
+[(31:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( Place getItem\()Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( position\) {)Tj
+-19.2 -1.1 TD
+[(32:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(super)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(.getItem\(position\);)Tj
+-14.4 -1.1 TD
+[(33:)-599.7(    })]TJ
+T*
+(34:)Tj
+T*
+[(35:)-599.7(    @Override)]TJ
+T*
+[(36:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( View getView\()Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+8.4 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( position, View convertView, ViewGroup parent\) {)Tj
+-18.6 -1.1 TD
+(37:)Tj
+T*
+[(38:)-599.7(        View row = convertView;)]TJ
+T*
+[(39:)-599.7(        PlaceHolder holder = )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+19.8 0 TD
+(null)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(;)Tj
+-22.2 -1.1 TD
+(40:)Tj
+T*
+[(41:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(//if we currently donít have a row View to reuse..)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(42:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(if)Tj
+/TT4 1 Tf
+0 g
+1.2 0 TD
+(\(row == )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(null)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(\){)Tj
+-15.6 -1.1 TD
+[(43:)-599.7(            )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+9.6 0 TD
+(//Create a new View)Tj
+/TT4 1 Tf
+-9.6 -1.1 TD
+(44:)Tj
+0 g
+2.4 0 TD
+(            LayoutInflater inflater = LayoutInflater.from\(mContext\);)Tj
+-2.4 -1.1 TD
+[(45:)-599.7(            row = inflater.inflate\(mLayoutResourceId,parent,)]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+38.4 0 TD
+(false)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(\);)Tj
+-41.4 -1.1 TD
+(46:)Tj
+T*
+[(47:)-599.7(            holder = )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+15 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( PlaceHolder\(\);)Tj
+-16.8 -1.1 TD
+(48:)Tj
+ET
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+19 0 obj
+<<
+/Length 3884
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(PlaceAdapter.java)-24197.6(spawrks 09/18/14)-29598.4(3-2/3\(5\))]TJ
+/TT4 1 Tf
+1.9 -1.6333 TD
+[(49:)-599.7(            holder.nameView = \(TextView\) row.findViewById\(R.id.nameTextView\);)]TJ
+0 -1.1 TD
+[(50:)-599.7(            holder.zipView = \(TextView\) row.findViewById\(R.id.zipcodeTextView\);)]TJ
+T*
+[(51:)-599.7(            holder.imageView = \(ImageView\) row.findViewById\(R.id.imageView\);)]TJ
+T*
+(52:)Tj
+T*
+[(53:)-599.7(            row.setTag\(holder\);)]TJ
+T*
+[(54:)-599.7(        })]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.8 0 TD
+(else)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+({)Tj
+-10.2 -1.1 TD
+[(55:)-599.7(            )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+9.6 0 TD
+(//Otherwise use an existing one)Tj
+/TT4 1 Tf
+-9.6 -1.1 TD
+(56:)Tj
+0 g
+2.4 0 TD
+(            holder = \(PlaceHolder\) row.getTag\(\);)Tj
+-2.4 -1.1 TD
+[(57:)-599.7(        })]TJ
+T*
+(58:)Tj
+T*
+[(59:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(//Getting the data form the data array)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(60:)Tj
+0 g
+2.4 0 TD
+(        Place place = mData[position];)Tj
+-2.4 -1.1 TD
+(61:)Tj
+T*
+[(62:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(//Setup and reuse the same listener for each row)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(63:)Tj
+0 g
+2.4 0 TD
+(        holder.imageView.setOnClickListener\(PopupListener\);)Tj
+-2.4 -1.1 TD
+[(64:)-599.7(        Integer rowPosition = position;)]TJ
+T*
+[(65:)-599.7(        holder.imageView.setTag\(rowPosition\);)]TJ
+T*
+(66:)Tj
+T*
+(67:)Tj
+T*
+[(68:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(//setting the view to reflect the data we need to display)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(69:)Tj
+0 g
+2.4 0 TD
+(        holder.nameView.setText\(place.mNameOfPlace\);)Tj
+-2.4 -1.1 TD
+[(70:)-599.7(        holder.zipView.setText\(String.valueOf\(place.mZipCode\)\);)]TJ
+T*
+(71:)Tj
+T*
+[(72:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(//for getting the image)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(73:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( resID = mContext.getResources\(\).getIdentifier\(place.mNameOfImage,)Tj
+/TT2 1 Tf
+0.737 0.561 0.561 rg
+39.6 0 TD
+("drawable")Tj
+/TT4 1 Tf
+0 g
+6 0 TD
+(,mContext.getPackageName\(\)\);)Tj
+-54.6 -1.1 TD
+[(74:)-599.7(        holder.imageView.setImageResource\(resID\);)]TJ
+T*
+(75:)Tj
+T*
+(76:)Tj
+T*
+[(77:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(//returning the row \(because this is called getView after all\))Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(78:)Tj
+0 g
+T*
+[(79:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( row;)Tj
+-10.8 -1.1 TD
+(80:)Tj
+T*
+(81:)Tj
+T*
+[(82:)-599.7(    })]TJ
+T*
+(83:)Tj
+T*
+[(84:)-599.7(    View.OnClickListener PopupListener = )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+27 0 TD
+(new)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( View.OnClickListener\(\) {)Tj
+-28.8 -1.1 TD
+[(85:)-599.7(        @Override)]TJ
+T*
+[(86:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(void)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+( onClick\(View view\) {)Tj
+-13.8 -1.1 TD
+[(87:)-599.7(            Integer viewPosition = \(Integer\) view.getTag\(\);)]TJ
+T*
+[(88:)-599.7(            Place p = mData[viewPosition];)]TJ
+T*
+[(89:)-599.7(            Toast.makeText\(getContext\(\),p.mPopup,Toast.LENGTH_SHORT\).show\(\);)]TJ
+T*
+[(90:)-599.7(        })]TJ
+T*
+[(91:)-599.7(    };)]TJ
+T*
+(92:)Tj
+T*
+(93:)Tj
+T*
+[(94:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(private)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(static)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(class)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+( PlaceHolder {)Tj
+-16.8 -1.1 TD
+[(95:)-599.7(        TextView nameView;)]TJ
+T*
+[(96:)-599.7(        TextView zipView;)]TJ
+ET
+endstream
+endobj
+20 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+22 0 obj
+<<
+/Length 461
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(PlaceAdapter.java)-24197.6(spawrks 09/18/14)-29598.4(3-3/3\(6\))]TJ
+/TT4 1 Tf
+1.9 -1.6333 TD
+[(97:)-599.7(        ImageView imageView;)]TJ
+0 -1.1 TD
+[(98:)-599.7(    })]TJ
+T*
+(99:)Tj
+-0.6 -1.1 TD
+(100:)Tj
+T*
+(101:)Tj
+T*
+[(102:)-599.6(})]TJ
+T*
+(103:)Tj
+T*
+(104:)Tj
+T*
+(105:)Tj
+T*
+(106:)Tj
+T*
+(107:)Tj
+T*
+(108:)Tj
+T*
+(109:)Tj
+T*
+(110:)Tj
+T*
+(111:)Tj
+T*
+(112:)Tj
+T*
+(113:)Tj
+T*
+(114:)Tj
+T*
+(115:)Tj
+ET
+endstream
+endobj
+23 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+25 0 obj
+<<
+/Length 495
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(Table of Contents)-24197.6(spawrks 09/18/14)-30198.5(-1/1\(7\))]TJ
+/TT4 1 Tf
+0 -1.6333 TD
+(  1 listviews/src/main/java/com/delta/listviews/ListViewActivity.java   2 pages   95 lines  14/09/18 21:06:57)Tj
+0 -1.1 TD
+(  2 listviews/src/main/java/com/delta/listviews/Place.java   1 pages   21 lines  14/09/18 21:01:34)Tj
+T*
+(  3 listviews/src/main/java/com/delta/listviews/PlaceAdapter.java   3 pages  115 lines  14/09/18 21:06:57)Tj
+ET
+endstream
+endobj
+26 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+7 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+27 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+28 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+29 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 99
+/FontBBox [-28 -250 742 805]
+/FontName /Courier-Oblique
+/ItalicAngle -15
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 600 600 0 0 0 0 0 600 600 0 0 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 0 0 0 0 0 600 
+0 600 600 600 0 600 600 0 600 600 0 0 600 0 600 600 
+600 0 0 600 600 600 600 0 0 600 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 27 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 125
+/Widths [600 600 0 0 0 0 0 0 600 600 0 0 600 0 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 0 0 600 600 600 600 
+600 0 600 600 600 0 600 0 0 0 600 600 0 600 0 600 
+0 600 0 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 600 600 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 28 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 0 0 0 0 0 0 0 600 600 600 0 600 0 600 600 
+0 600 600 600 600 0 0 600 0 0 0 600 0 0 0 0 
+0 600 0 600 0 0 0 600 600 600 0 0 0 600 0 600 
+0 0 0 600 600 600 600 0 0 0 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 0 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+/FontDescriptor 29 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 11 0 R
+/Contents 10 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 14 0 R
+/Contents 13 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+>>
+endobj
+18 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 20 0 R
+/Contents 19 0 R
+>>
+endobj
+21 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 23 0 R
+/Contents 22 0 R
+>>
+endobj
+24 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 26 0 R
+/Contents 25 0 R
+>>
+endobj
+30 0 obj
+<<
+/S /D
+>>
+endobj
+31 0 obj
+<<
+/Nums [0 30 0 R ]
+>>
+endobj
+8 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 9 0 R 12 0 R 15 0 R 18 0 R 21 0 R 24 0 R]
+/Count 7
+/Rotate 90
+/MediaBox [0 0 595 842]
+>>
+endobj
+32 0 obj
+<<
+/CreationDate (D:20140918210658-05'00')
+/ModDate (D:20140918210658-05'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+33 0 obj
+<<
+/Type /Catalog
+/Pages 8 0 R
+/PageLabels 31 0 R
+>>
+endobj
+xref
+0 34
+0000000000 65535 f 
+0000029466 00000 n 
+0000000016 00000 n 
+0000009198 00000 n 
+0000027944 00000 n 
+0000028468 00000 n 
+0000028965 00000 n 
+0000027210 00000 n 
+0000030111 00000 n 
+0000029546 00000 n 
+0000009315 00000 n 
+0000014244 00000 n 
+0000029628 00000 n 
+0000014362 00000 n 
+0000016661 00000 n 
+0000029711 00000 n 
+0000016779 00000 n 
+0000021763 00000 n 
+0000029794 00000 n 
+0000021881 00000 n 
+0000025818 00000 n 
+0000029877 00000 n 
+0000025936 00000 n 
+0000026449 00000 n 
+0000029960 00000 n 
+0000026556 00000 n 
+0000027103 00000 n 
+0000027350 00000 n 
+0000027552 00000 n 
+0000027743 00000 n 
+0000030043 00000 n 
+0000030071 00000 n 
+0000030244 00000 n 
+0000030367 00000 n 
+trailer
+<<
+/Size 34
+/Root 33 0 R
+/Info 32 0 R
+/ID [<2534617280ce57e7e2ab5f2b7c4f4b24><2534617280ce57e7e2ab5f2b7c4f4b24>]
+>>
+startxref
+30436
+%%EOF
